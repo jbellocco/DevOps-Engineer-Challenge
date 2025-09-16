@@ -1,7 +1,13 @@
-# Correcion de la imagen en el archivo de deployment
+# DevOps Challenge - Node.js Application
 
-- se estaba tomado mal la iamgen del contendor en el archivo deployment y se cambio por esta image: devops-challenge-app:dev que era la correcta.
+Este repositorio contiene una aplicación simple en Node.js/TypeScript utilizada para evaluar habilidades de DevOps en Kubernetes.
 
-- Validando el puerto del dockerfile y el archivo de deployment se ajusto el targetPort que estaba en 80 para que apunte al puerto 8080.
+---
 
-- se probo la aplicacion con el script
+## 🔧 Correcciones realizadas en la aplicación
+
+### 📌 Imagen de contenedor
+- En el archivo `deployment.yaml` se estaba utilizando una imagen incorrecta.  
+- Se corrigió para usar la imagen correcta:
+  ```yaml
+  image: devops-challenge-app:dev
