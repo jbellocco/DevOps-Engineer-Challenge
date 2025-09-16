@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: devops-challenge-config
+  labels:
+    app: devops-challenge-app
+data:
+  APP_PORT: "8080"
+  NODE_ENV: "production"
+  LOG_LEVEL: "info"
+  APP_NAME: "devops-challenge-app"
+  APP_VERSION: "1.0.0"
