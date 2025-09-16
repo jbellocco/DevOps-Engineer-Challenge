@@ -11,3 +11,10 @@ Este repositorio contiene una aplicación simple en Node.js/TypeScript utilizada
 - Se corrigió para usar la imagen correcta:
   ```yaml
   image: devops-challenge-app:dev
+
+### Service
+- En el archivo `service.yaml` se estaba utilizando incorectamente el targetPort que apuntaba al 80 
+- Se cambio por el 8080.:
+  ```yaml
+      targetPort: 8080
+
