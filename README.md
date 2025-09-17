@@ -6,7 +6,7 @@ Este repositorio contiene una aplicación simple en Node.js/TypeScript utilizada
 
 ## 🔧 Correcciones realizadas en la aplicación
 
-### 📌 setar minikube para buildear la imagen
+### 📌 setar minikube para buildear la imagen y pushear la imagen
 - Setear minikube:
   ```bash
   eval $(minikube docker-env)
